@@ -1,0 +1,9 @@
+h1. MemWatch.
+
+h2. Put something like this into your crontab :
+
+@ @reboot   /usr/bin/ruby /path/to/memwatch_control.rb start @
+
+h2. And if you want to stop it:
+
+@ ruby /path/to/memwatch_control.rb stop @
