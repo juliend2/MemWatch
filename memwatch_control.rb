@@ -1,4 +1,5 @@
 require 'rubygems'
 require 'daemons'
-
-Daemons.run(File.expand_path(File.dirname(__FILE__))+'/memwatch.rb')
+path = File.expand_path(File.dirname(__FILE__))+'/memwatch.rb'
+puts path
+Daemons.run(path)
